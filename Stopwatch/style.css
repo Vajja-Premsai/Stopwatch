@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
+body{
+    background-image: url(assets/background.jpg);
+    background-size:cover;
+    background-blend-mode: color;
+    font-family: 'Nunito', sans-serif;
+}
+div.main-container{
+     max-width: 50%;
+     display: inline;
+     justify-content: center;
+}
+div.header{
+    color: black;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 15% ;
+}
+div.container-text{
+    padding: 1rem;
+    background-color: aliceblue;
+    max-width: fit-content;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 4px 1px black;
+    opacity: 0.9;
+}
+div.container-numbers{
+    color: black;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+}
+div.container-num2{
+        padding: 1rem;
+        background-color: aliceblue;
+        max-width: fit-content;
+        border-end-start-radius: 1rem;
+        border-end-end-radius: 1rem;
+        box-shadow: 2px 5px 4px 1px black;
+        opacity: 0.9;
+}
+div.input-buttons{
+    display: flex;
+    justify-content: center;
+    column-gap: 0.7rem;
+}
+div.lap-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 0.7rem;
+}
+Button:active{
+    transform:translateY(4px)
+}
+Button{
+    color: black;
+    background-color: white;
+    font-size: x-large;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 2px 5px 4px 1px black;
+    opacity: 0.7;
+}
+button#inputStart{
+    background-color: #00ff00;
+}
+button#inputStop{
+    background-color: red;
+}
+button#inputReset{
+    background-color: yellow;
+}
+button#lap{
+    background-color: orange;
+}
+div.lap-begins{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    font-size: larger;
+    max-width: fit-content;
+}
+div.lap-container{
+    justify-content: center;
+}
+div.lap-record{
+    background-color: aliceblue;
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    opacity: 0.7;
+    border-radius: 0.5rem;
+}
